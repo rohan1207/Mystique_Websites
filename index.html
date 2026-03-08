@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Web Developer Portfolio | Furniture Showroom Specialist</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#b85814",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#211811",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<!-- Top Navigation -->
+<nav class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">chair</span>
+<span class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Portfolio</span>
+</div>
+<div class="hidden md:block">
+<div class="flex items-baseline space-x-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#tech">Stack</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+<a class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold hover:opacity-90 transition-opacity" href="#contact">Contact Me</a>
+</div>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined cursor-pointer">menu</span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative @container">
+<div class="mx-auto max-w-7xl px-4 py-12 @[480px]:py-20">
+<div class="relative overflow-hidden rounded-xl bg-slate-900 min-h-[500px] flex items-center justify-center text-center p-8 shadow-2xl">
+<!-- Background with Overlay -->
+<div class="absolute inset-0 z-0 opacity-60 bg-cover bg-center" data-alt="Luxurious modern living room with leather sofa" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4VYVa5-kkM4GXAQHPWLVaW6I3fbt556T_IeJBG75phRFbd_NhuqJYNC_ZBRqCZ084fZvIm6yXJKowL5HbJ-3JwyWsju1DJguPmTfVTQfOtavOyu9r6y43N1IdFi_UEoR3f_2jH4QI2T4dQg2hLnZOnUMobdTW4k8kOR5XE5dpRo8iDJcdEYldvblbQBt7XGY0Xyb0AybKak2ViXCj3AnVUFpUEMeA8tHiYIYlWZWGaglpImT4XgPxdwR45N0iMIg07cGS8A7FI27K');"></div>
+<div class="relative z-10 max-w-3xl flex flex-col items-center gap-6">
+<h1 class="text-white text-4xl font-black leading-tight tracking-tight @[480px]:text-6xl">
+                        Furniture Showroom Website Projects
+                    </h1>
+<p class="text-slate-200 text-lg @[480px]:text-xl font-light">
+                        I design and build high-conversion, elegant digital storefronts for premium furniture brands.
+                    </p>
+<div class="flex flex-wrap justify-center gap-4">
+<a class="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-4 text-white font-bold text-lg hover:scale-105 transition-transform shadow-lg" href="#projects">
+                            View My Work
+                        </a>
+<a class="inline-flex items-center justify-center rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 px-8 py-4 text-white font-bold text-lg hover:bg-white/20 transition-all" href="#contact">
+                            Start a Project
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Projects Section -->
+<section class="py-16 bg-background-light dark:bg-background-dark" id="projects">
+<div class="max-w-7xl mx-auto px-4">
+<div class="flex items-center justify-between mb-12">
+<div>
+<h2 class="text-3xl font-bold text-slate-900 dark:text-slate-100">Featured Showrooms</h2>
+<div class="h-1 w-20 bg-primary mt-2"></div>
+</div>
+</div>
+<div class="space-y-12">
+<!-- Project 1 -->
+<div class="flex flex-col lg:flex-row gap-8 bg-white dark:bg-slate-800/50 rounded-xl overflow-hidden shadow-sm border border-primary/5 p-6 @container">
+<div class="w-full lg:w-1/2 aspect-video rounded-lg bg-cover bg-center shadow-inner" data-alt="Minimalist furniture showroom interface design" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBI2XvQu2W33C5uLs638G1t3vAAOdWYvUkbgzJc4LPRWu3e_I-gmLBmfp80OFLHxXQZ4Nq6W6TbvAqiwY8fTUDUkDLYBNhsUzsSB-ehInSeRBuO6nxMQp1190HSP87wsa2JstR1mX2hQ4cNYtj8Z3raTGtE1dWGCYbAaTGZ2qC40fVduzrfDoSNdF8vGha6QKrW6vbUjS-W4NGPDHpHoDPu5Jc2oPJwYpKU02UM_LmLxx2D690k_DpkWkx4kxeb0EWGk4JaRAOEDs25');"></div>
+<div class="w-full lg:w-1/2 flex flex-col justify-center space-y-4">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100">Mystique Furniture Website – Version 1</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                            A modern furniture showroom website designed with a clean layout to showcase premium furniture collections, product galleries, and a stylish user interface. Focuses on whitespace and bold typography.
+                        </p>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors" href="https://mystique1.onrender.com" target="_blank">
+                                Visit Website <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="flex flex-col lg:flex-row-reverse gap-8 bg-white dark:bg-slate-800/50 rounded-xl overflow-hidden shadow-sm border border-primary/5 p-6 @container">
+<div class="w-full lg:w-1/2 aspect-video rounded-lg bg-cover bg-center shadow-inner" data-alt="Warm wooden interior furniture website mockup" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC9OEm4hAxGpyDXwLw5-RmPKiVwq003-JWpyybbtGSum6QN9axjL6_MYQzn-BPrEnOT1Bit5jcvJADzgaB-K4BGhT26fmxGjo4Xk1ySa3zFFWZsJCQTITUAZBTnDJDWYlqexM25UMvBkwXrcb6Lvfg2h7q4NBich3ChHL56jclhbfTehk7KqmPKwag2AO_R7sypqIp7InJcZKPOgbDOju6UqkUfP3oe_fogOOEbZ1jY9gqxDuo3xCHT6e5DgWPzjU1v7l45AVChxe1x');"></div>
+<div class="w-full lg:w-1/2 flex flex-col justify-center space-y-4">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100">Mystique Furniture Website – Version 2</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                            An improved version of the Mystique furniture website with enhanced UI design, better product display, and responsive layout for mobile and desktop users. Includes advanced filtering systems.
+                        </p>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors" href="https://mystique2.onrender.com" target="_blank">
+                                Visit Website <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="flex flex-col lg:flex-row gap-8 bg-white dark:bg-slate-800/50 rounded-xl overflow-hidden shadow-sm border border-primary/5 p-6 @container">
+<div class="w-full lg:w-1/2 aspect-video rounded-lg bg-cover bg-center shadow-inner" data-alt="High-end cozy showroom website layout" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuByIAJnEtgXkcWENMD0ycnZUkFctHsMIqmjYtG2vdNwJg-xLYg232H_ARt67x4u-yg6A2Ml6rmEQ8xCRKZB9kYZRjVfOKfHFiA4ZRav1qejHol4vAUveRQi-QTwlH5ophPrRgDYY3KZ6-p5I71U1XxZpk8gQYB09IXSXDBjO-PU7KuuGwpBww8jMG4u_BrE2ezbzpEFjII52dmsAJOpLGylUtA8luaGqpkEXzeDnp6DYtVe5aDP71r86wW3-1V0gewtX999Oe_95EhP');"></div>
+<div class="w-full lg:w-1/2 flex flex-col justify-center space-y-4">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100">Mystique Furniture Website – Version 3</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                            The latest version of the Mystique showroom website with a more refined design, smoother navigation, and an elegant furniture-themed layout. Optimized for high-resolution imagery.
+                        </p>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-colors" href="https://mystique3.onrender.com" target="_blank">
+                                Visit Website <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technologies Section -->
+<section class="py-16 bg-primary/5" id="tech">
+<div class="max-w-7xl mx-auto px-4">
+<h2 class="text-center text-3xl font-bold mb-12 text-slate-900 dark:text-slate-100">Expertise &amp; Stack</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col items-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">html</span>
+</div>
+<h4 class="font-bold">HTML5</h4>
+</div>
+<div class="flex flex-col items-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">css</span>
+</div>
+<h4 class="font-bold">CSS3 / Tailwind</h4>
+</div>
+<div class="flex flex-col items-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">javascript</span>
+</div>
+<h4 class="font-bold">JavaScript</h4>
+</div>
+<div class="flex flex-col items-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">devices</span>
+</div>
+<h4 class="font-bold">Responsive Design</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-20 bg-background-light dark:bg-background-dark overflow-hidden" id="about">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="relative">
+<div class="aspect-square rounded-2xl bg-cover bg-center z-10 relative" data-alt="Modern professional office workspace" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDISccbiQqnU1E1eIadYatKWb1LybZhhbGr4G3KPv9CbPIq569cxd6sJNmOJPgoqsQKQLQxAgsi6NHmiuqNZealD5ytRlJ-mss5Fz_Mfaq9e7SOtTNDJBeipcjH91vhD5k6MIgu69cFV8C405A0LGmhaQ6V6ULjrm5WrYZgGuYnBRGH5nlTtRYiexqLz067bSBal3zRru8fPAlaD3nQp1usttMCoxwXKD0D_XmNWGukDV1OoAY1mAm4i50E9MHquOtR2Kppe6FH6Gve');"></div>
+<div class="absolute -bottom-6 -right-6 w-full h-full border-4 border-primary rounded-2xl -z-0"></div>
+</div>
+<div class="space-y-6">
+<h2 class="text-4xl font-bold text-slate-900 dark:text-slate-100 leading-tight">Crafting Digital Spaces for Physical Elegance</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg">
+                        I specialize in creating bespoke websites for furniture showrooms and high-end businesses. My goal is to bridge the gap between your physical inventory and the digital experience, ensuring your craft is presented with the sophistication it deserves.
+                    </p>
+<div class="space-y-4">
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<h5 class="font-bold text-slate-900 dark:text-slate-100">Industry Focused</h5>
+<p class="text-slate-600 dark:text-slate-400">Deep understanding of furniture retail and interior design UX patterns.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<h5 class="font-bold text-slate-900 dark:text-slate-100">Performance First</h5>
+<p class="text-slate-600 dark:text-slate-400">High-speed browsing experiences that keep users engaged with your products.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-20 bg-slate-900 text-white" id="contact">
+<div class="max-w-7xl mx-auto px-4">
+<div class="bg-primary/10 rounded-2xl p-8 md:p-12 border border-white/10">
+<div class="grid lg:grid-cols-2 gap-12">
+<div>
+<h2 class="text-4xl font-black mb-6">Ready to elevate your showroom?</h2>
+<p class="text-slate-300 text-lg mb-8">
+                            Join other showroom owners who have transformed their digital presence. Let's discuss your project and how we can showcase your furniture collections online.
+                        </p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>hello@furnituredesigner.pro</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span data-location="Milan, Italy">Milan Design District</span>
+</div>
+</div>
+</div>
+<form class="space-y-4" onsubmit="return false">
+<div>
+<label class="block text-sm font-medium mb-1">Full Name</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium mb-1">Showroom Name</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="Luxury Interiors Ltd." type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium mb-1">Message</label>
+<textarea class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="Tell me about your showroom goals..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-bold py-4 rounded-lg hover:opacity-90 transition-opacity shadow-lg">
+                            Send Message
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="py-12 bg-background-light dark:bg-background-dark border-t border-primary/10">
+<div class="max-w-7xl mx-auto px-4 text-center">
+<div class="flex items-center justify-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">chair</span>
+<span class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">FurnitureDev</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400">© 2024 Specialized Web Design for Furniture Showrooms. All rights reserved.</p>
+</div>
+</footer>
+</body></html>
